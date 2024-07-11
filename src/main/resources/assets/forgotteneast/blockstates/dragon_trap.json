@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "forgotteneast:block/dragon_trap"
+    },
+    "facing=south": {
+      "model": "forgotteneast:block/dragon_trap",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "forgotteneast:block/dragon_trap",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "forgotteneast:block/dragon_trap",
+      "y": 90
+    }
+  }
+}

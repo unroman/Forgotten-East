@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "forgotteneast:block/lacquered_slab"
+    },
+    "type=double": {
+      "model": "forgotteneast:block/lacquered_planks"
+    },
+    "type=top": {
+      "model": "forgotteneast:block/lacquered_slab_top"
+    }
+  }
+}

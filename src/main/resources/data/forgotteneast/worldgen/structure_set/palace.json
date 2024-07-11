@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 60987131,
+    "separation": 8,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "forgotteneast:palace",
+      "weight": 1
+    }
+  ]
+}

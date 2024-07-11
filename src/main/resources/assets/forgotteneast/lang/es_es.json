@@ -1,0 +1,28 @@
+{
+ "itemGroup.eastgroup": "Oriente olvidado",
+ "tooltip.staff": "Bloqueo sin escudo",
+ "item.forgotteneast.staff": "Bastón",
+ "item.forgotteneast.lute": "Laúd",
+ "item.forgotteneast.lacquer": "Tarro de laca",
+ "item.forgotteneast.adherent_spawn_egg": "Generar adepto",
+ "entity.forgotteneast.adherent": "Adepto",
+
+ "block.forgotteneast.dragon_trap": "Trampa del Dragón de Fuego",
+ "block.forgotteneast.lacquered_planks": "Tablones lacados",
+ "block.forgotteneast.lacquered_stairs": "Escaleras lacadas",
+ "block.forgotteneast.lacquered_slab": "Losa lacada",
+ "block.forgotteneast.lacquered_fence": "Valla lacada",
+ "block.forgotteneast.lacquered_button": "Botón lacado",
+ "block.forgotteneast.lacquered_pressure_plate": "Placa de presión lacada",
+ "block.forgotteneast.roof_tiles": "Tejas",
+ "block.forgotteneast.roof_tiles_stairs": "Escaleras de tejas",
+ "block.forgotteneast.roof_tiles_slab": "Losa de teja",
+ "block.forgotteneast.paper_lantern_red": "Lampara de papel roja",
+ "block.forgotteneast.paper_lantern_white": "Lampara de papel",
+ "block.forgotteneast.paper_lantern_black": "Lampara de papel negra",
+
+ "advancements.forgotteneast.lacquer.title": "No contiene mercurio",
+ "advancements.forgotteneast.lacquer.description": "Encuentra un tarro de laca en un palacio.",
+ "advancements.forgotteneast.staff.title": "Casa de los palos voladores",
+ "advancements.forgotteneast.staff.description": "Adquirir un bastón de adepto."
+}

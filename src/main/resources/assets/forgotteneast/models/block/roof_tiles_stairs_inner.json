@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "forgotteneast:block/roof_tiles_cross",
+    "top": "forgotteneast:block/roof_tiles_cross",
+    "side": "forgotteneast:block/roof_tiles"
+  }
+}

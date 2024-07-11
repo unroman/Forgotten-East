@@ -1,0 +1,28 @@
+{
+ "itemGroup.eastgroup": "Kadunud ida",
+ "tooltip.staff": "Pareerimine",
+ "item.forgotteneast.staff": "Võitluskepp",
+ "item.forgotteneast.lute": "Lutsu",
+ "item.forgotteneast.lacquer": "Lakipurk",
+ "item.forgotteneast.adherent_spawn_egg": "Vilunud sünnimuna",
+ "entity.forgotteneast.adherent": "Vilunud",
+
+ "block.forgotteneast.dragon_trap": "Tuledraakoni lõks",
+ "block.forgotteneast.lacquered_planks": "Lakitud lauad",
+ "block.forgotteneast.lacquered_stairs": "Lakitud trepp",
+ "block.forgotteneast.lacquered_slab": "Lakitud plaat",
+ "block.forgotteneast.lacquered_fence": "Lakitud aed",
+ "block.forgotteneast.lacquered_button": "Lakitud nupp",
+ "block.forgotteneast.lacquered_pressure_plate": "Lakitud surveplaat",
+ "block.forgotteneast.roof_tiles": "Katusekivid",
+ "block.forgotteneast.roof_tiles_stairs": "Katusekivitrepp",
+ "block.forgotteneast.roof_tiles_slab": "Katusekiviplaat",
+ "block.forgotteneast.paper_lantern_red": "Punane paberist latern",
+ "block.forgotteneast.paper_lantern_white": "Paberist latern",
+ "block.forgotteneast.paper_lantern_black": "Must paberist latern",
+
+ "advancements.forgotteneast.lacquer.title": "Ei sisalda elavhõbedat",
+ "advancements.forgotteneast.lacquer.description": "Leidke paleest lakkipurk",
+ "advancements.forgotteneast.staff.title": "Lendavate keppide maja",
+ "advancements.forgotteneast.staff.description": "Leidke võitluskepp"
+}

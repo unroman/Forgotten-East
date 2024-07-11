@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "block": "forgotteneast:dragon_trap",
+              "function": "minecraft:copy_state",
+              "properties": [
+                "enabled"
+              ]
+            }
+          ],
+          "name": "forgotteneast:dragon_trap"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

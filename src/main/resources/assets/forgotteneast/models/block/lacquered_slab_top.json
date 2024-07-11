@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "forgotteneast:block/lacquered_planks",
+    "side": "forgotteneast:block/lacquered_planks",
+    "top": "forgotteneast:block/lacquered_planks"
+  }
+}

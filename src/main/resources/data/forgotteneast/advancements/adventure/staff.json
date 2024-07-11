@@ -1,0 +1,36 @@
+{
+  "parent": "forgotteneast:adventure/lacquer",
+  "display":{
+    "icon":{
+      "item": "forgotteneast:staff"
+    },
+    "title":{
+      "translate":"advancements.forgotteneast.staff.title"
+    },
+    "description":{
+      "translate":"advancements.forgotteneast.staff.description"
+    },
+    "show_toast":true,
+    "announce_to_chat":false,
+    "hidden":true
+  },
+  "criteria":{
+    "staff":{
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "forgotteneast:staff"
+            ]
+          }
+        ]
+      },
+      "trigger":"minecraft:inventory_changed"
+    }
+  },
+  "requirements":[
+    [
+      "staff"
+    ]
+  ]
+}

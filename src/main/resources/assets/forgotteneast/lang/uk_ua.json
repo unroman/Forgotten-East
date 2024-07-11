@@ -1,0 +1,28 @@
+{
+ "itemGroup.eastgroup": "Втрачений схід",
+ "tooltip.staff": "Парирування",
+ "item.forgotteneast.staff": "Посох",
+ "item.forgotteneast.lute": "Лютня",
+ "item.forgotteneast.lacquer": "Глек з лаком",
+ "item.forgotteneast.adherent_spawn_egg": "Яйце виклику прибічника",
+ "entity.forgotteneast.adherent": "Прибічник",
+
+ "block.forgotteneast.dragon_trap": "Вогняна драконя пастка",
+ "block.forgotteneast.lacquered_planks": "Лаковані дошки",
+ "block.forgotteneast.lacquered_stairs": "Лаковані сходи",
+ "block.forgotteneast.lacquered_slab": "Лакована плита",
+ "block.forgotteneast.lacquered_fence": "Лакований паркан",
+ "block.forgotteneast.lacquered_button": "Лакована кнопка",
+ "block.forgotteneast.lacquered_pressure_plate": "Лакована натискна плита",
+ "block.forgotteneast.roof_tiles": "Черепиця",
+ "block.forgotteneast.roof_tiles_stairs": "Черепічні сходи",
+ "block.forgotteneast.roof_tiles_slab": "Черепічна плита",
+ "block.forgotteneast.paper_lantern_red": "Червоний паперовий ліхтар",
+ "block.forgotteneast.paper_lantern_white": "Паперовий ліхтар",
+ "block.forgotteneast.paper_lantern_black": "Чорний паперовий ліхтар",
+
+ "advancements.forgotteneast.lacquer.title": "Не містить ртуть",
+ "advancements.forgotteneast.lacquer.description": "Знайдіть глек з лаком у палаці",
+ "advancements.forgotteneast.staff.title": "Дім літаючих палиць",
+ "advancements.forgotteneast.staff.description": "Зберіть посох з прибічника"
+}

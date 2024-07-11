@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "I": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "forgotteneast:paper_lantern_white"
+  }
+}

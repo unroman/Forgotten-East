@@ -1,0 +1,28 @@
+{
+ "itemGroup.eastgroup": "Затерянный восток",
+ "tooltip.staff": "Парирование",
+ "item.forgotteneast.staff": "Посох",
+ "item.forgotteneast.lute": "Лютня",
+ "item.forgotteneast.lacquer": "Кувшин с лаком",
+ "item.forgotteneast.adherent_spawn_egg": "Яйцо призыва приверженца",
+ "entity.forgotteneast.adherent": "Приверженец",
+
+ "block.forgotteneast.dragon_trap": "Огненная драконья ловушка",
+ "block.forgotteneast.lacquered_planks": "Лакированные доски",
+ "block.forgotteneast.lacquered_stairs": "Лакированные ступени",
+ "block.forgotteneast.lacquered_slab": "Лакированная плита",
+ "block.forgotteneast.lacquered_fence": "Лакированный забор",
+ "block.forgotteneast.lacquered_button": "Лакированная кнопка",
+ "block.forgotteneast.lacquered_pressure_plate": "Лакированная нажимная плита",
+ "block.forgotteneast.roof_tiles": "Черепица",
+ "block.forgotteneast.roof_tiles_stairs": "Черепичные ступени",
+ "block.forgotteneast.roof_tiles_slab": "Черепичная плита",
+ "block.forgotteneast.paper_lantern_red": "Красный бумажный фонарь",
+ "block.forgotteneast.paper_lantern_white": "Бумажный фонарь",
+ "block.forgotteneast.paper_lantern_black": "Черный бумажный фонарь",
+
+ "advancements.forgotteneast.lacquer.title": "Не содержит ртуть",
+ "advancements.forgotteneast.lacquer.description": "Найдите кувшин с лаком во дворце",
+ "advancements.forgotteneast.staff.title": "Дом летающих палок",
+ "advancements.forgotteneast.staff.description": "Соберите посох с приверженца"
+}
