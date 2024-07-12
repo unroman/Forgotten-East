@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EastMod.MODID);
     public static RegistryObject<CreativeModeTab> TAB = CREATIVE_TAB.register("eastgroup", () -> CreativeModeTab.builder()
-            .icon(() -> ModItems.LUTE.get().asItem().getDefaultInstance())
+            .icon(() -> ModItems.LACQUER.get().asItem().getDefaultInstance())
             .title(Component.translatable("itemGroup.eastgroup"))
             .displayItems((parameters, output) -> {
         output.accept(ModItems.STAFF.get());
@@ -24,6 +24,7 @@ public class ModTab {
         output.accept(ModBlocks.LACQUERED_SLAB.get());
         output.accept(ModBlocks.LACQUERED_PLATE.get());
         output.accept(ModBlocks.LACQUERED_FENCE.get());
+        output.accept(ModBlocks.LACQUERED_DOOR.get());
         output.accept(ModBlocks.LACQUERED_BUTTON.get());
         output.accept(ModBlocks.ROOF_TILES.get());
         output.accept(ModBlocks.ROOF_TILES_STAIRS.get());

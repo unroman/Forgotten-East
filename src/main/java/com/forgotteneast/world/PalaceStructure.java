@@ -29,7 +29,7 @@ public class PalaceStructure extends Structure {
     public void generatePieces(StructurePiecesBuilder pieceBuilder, Structure.GenerationContext generatorContext) {
         BlockPos chunkPos = new BlockPos(generatorContext.chunkPos().getMinBlockX(), 90, generatorContext.chunkPos().getMinBlockZ());
         int landHeight = generatorContext.chunkGenerator().getFirstOccupiedHeight(chunkPos.getX(), chunkPos.getZ(), Heightmap.Types.WORLD_SURFACE_WG, generatorContext.heightAccessor(), generatorContext.randomState());
-        if (landHeight < 135 && landHeight > 65) {
+        if (landHeight < 100 && landHeight > 55) {
             BlockPos position = new BlockPos(chunkPos.getX(), landHeight, chunkPos.getZ());
             PalacePieces.addPieces(generatorContext.structureTemplateManager(), position, pieceBuilder, generatorContext.random());
         }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "forgotteneast:block/lacquered_door_bottom",
+    "top": "forgotteneast:block/lacquered_door_top"
+  }
+}

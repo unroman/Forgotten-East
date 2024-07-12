@@ -37,6 +37,7 @@ public class Adherent extends Monster {
     public Adherent(EntityType<? extends Monster> p_32133_, Level p_32134_) {
         super(p_32133_, p_32134_);
     }
+
     protected void populateDefaultEquipmentSlots(RandomSource p_218949_, DifficultyInstance p_218950_) {
         super.populateDefaultEquipmentSlots(p_218949_, p_218950_);
         this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ModItems.STAFF.get()));

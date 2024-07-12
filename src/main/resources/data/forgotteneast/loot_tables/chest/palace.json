@@ -50,7 +50,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 1,
           "name": "forgotteneast:lute"
         },
         {

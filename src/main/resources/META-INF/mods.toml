@@ -4,7 +4,7 @@ license="Not for sale"
 [[mods]]
 modId="forgotteneast"
 logoFile="logo.png"
-version="1.0.0"
+version="1.0.1"
 displayName="Forgotten East"
 credits = "All credits reserved"
 authors="Me"

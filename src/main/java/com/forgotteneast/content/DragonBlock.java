@@ -4,7 +4,11 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -16,6 +20,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.phys.BlockHitResult;
 
 import javax.annotation.Nullable;
 
@@ -40,6 +45,24 @@ public class DragonBlock extends Block {
                 this.discharge(state, level, pos);
             }
         }
+    }
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        ItemStack itemstack = player.getItemInHand(hand);
+        if (state.getValue(CHARGED)) {
+            return InteractionResult.PASS;
+        } else {
+            if (itemstack.is(Items.LAVA_BUCKET)) {
+                level.playSound((Player)null, pos, SoundEvents.LAVA_POP, SoundSource.BLOCKS, 0.3F, 0.5F);
+                this.discharge(state, level, pos);
+                if (!player.isCreative()) {
+                    itemstack.shrink(1);
+                    player.setItemInHand(hand, Items.BUCKET.getDefaultInstance());
+                }
+                return InteractionResult.SUCCESS;
+            }
+        }
+
+        return InteractionResult.PASS;
     }
 
     public void discharge(BlockState state, Level level, BlockPos pos) {

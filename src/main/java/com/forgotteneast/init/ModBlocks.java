@@ -26,6 +26,7 @@ public class ModBlocks {
     public static RegistryObject<Block> LACQUERED_STAIRS = register(() -> new StairBlock(LACQUERED_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(LACQUERED_PLANKS.get())), "lacquered_stairs");
     public static RegistryObject<Block> LACQUERED_SLAB = register(() -> new SlabBlock(BlockBehaviour.Properties.copy(LACQUERED_PLANKS.get())), "lacquered_slab");
     public static RegistryObject<Block> LACQUERED_FENCE = register(() -> new FenceBlock(BlockBehaviour.Properties.copy(LACQUERED_PLANKS.get())), "lacquered_fence");
+    public static RegistryObject<Block> LACQUERED_DOOR = register(() -> new DoorBlock(BlockBehaviour.Properties.copy(LACQUERED_PLANKS.get()), BlockSetType.OAK), "lacquered_door");
     public static RegistryObject<Block> LACQUERED_PLATE = register(() -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(LACQUERED_PLANKS.get()).noCollission().strength(0.5F).pushReaction(PushReaction.DESTROY), BlockSetType.OAK), "lacquered_pressure_plate");
     public static RegistryObject<Block> LACQUERED_BUTTON = register(() -> new ButtonBlock(BlockBehaviour.Properties.copy(LACQUERED_PLANKS.get()).noCollission().strength(0.5F).pushReaction(PushReaction.DESTROY), BlockSetType.OAK, 30, true), "lacquered_button");
 
