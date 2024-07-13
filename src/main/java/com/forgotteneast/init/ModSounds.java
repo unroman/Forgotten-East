@@ -10,5 +10,5 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND = DeferredRegister.create(Registries.SOUND_EVENT, EastMod.MODID);
 
-    public static RegistryObject<SoundEvent> LUTE = SOUND.register( "lute_play", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(EastMod.MODID, "lute_play")));
+    public static RegistryObject<SoundEvent> LUTE = SOUND.register( "lute_play", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(EastMod.MODID, "lute_play")));
 }

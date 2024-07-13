@@ -15,8 +15,9 @@ public class LuteItem extends Item {
         super(p_41383_.stacksTo(1));
     }
 
+    @Override
     public void onStopUsing(ItemStack stack, LivingEntity entity, int count) {
-        int i = this.getUseDuration(stack) - count;
+        int i = this.getUseDuration(stack, entity) - count;
         if (i > 55) {
             entity.level().playLocalSound(entity.blockPosition(), ModSounds.LUTE.get(), SoundSource.PLAYERS, 1.0f, entity.getRandom().nextInt(10, 12) * 0.1f, true);
         }
@@ -28,7 +29,6 @@ public class LuteItem extends Item {
         return InteractionResultHolder.consume(itemstack);
     }
 
-    public int getUseDuration(ItemStack p_40680_) {
-        return 60;
-    }
+    @Override
+    public int getUseDuration(ItemStack p_43419_, LivingEntity p_344216_) {return 60;}
 }

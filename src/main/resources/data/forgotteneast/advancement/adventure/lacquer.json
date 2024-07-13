@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display":{
+    "icon":{
+      "count": 1,
+      "id": "forgotteneast:lacquer"
+    },
+    "title":{
+      "translate":"advancements.forgotteneast.lacquer.title"
+    },
+    "description":{
+      "translate":"advancements.forgotteneast.lacquer.description"
+    },
+    "show_toast":true,
+    "announce_to_chat":false,
+    "hidden":true
+  },
+  "criteria":{
+    "lacquer":{
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "forgotteneast:lacquer"
+            ]
+          }
+        ]
+      },
+      "trigger":"minecraft:inventory_changed"
+    }
+  },
+  "requirements":[
+    [
+      "lacquer"
+    ]
+  ]
+}

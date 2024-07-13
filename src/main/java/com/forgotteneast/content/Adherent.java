@@ -2,7 +2,6 @@ package com.forgotteneast.content;
 
 import com.forgotteneast.init.ModItems;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -50,17 +49,16 @@ public class Adherent extends Monster {
         this.entityData.set(FLYING, flying);
     }
 
-    protected void defineSynchedData() {
-        super.defineSynchedData();
-        this.entityData.define(FLYING, false);
+    protected void defineSynchedData(SynchedEntityData.Builder p_335149_) {
+        super.defineSynchedData(p_335149_);
+        p_335149_.define(FLYING, false);
     }
-
     @Nullable
-    public SpawnGroupData finalizeSpawn(ServerLevelAccessor p_32146_, DifficultyInstance p_32147_, MobSpawnType p_32148_, @Nullable SpawnGroupData p_32149_, @Nullable CompoundTag p_32150_) {
-        p_32149_ = super.finalizeSpawn(p_32146_, p_32147_, p_32148_, p_32149_, p_32150_);
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor p_32146_, DifficultyInstance p_32147_, MobSpawnType p_32148_, @Nullable SpawnGroupData p_32149_) {
+        p_32149_ = super.finalizeSpawn(p_32146_, p_32147_, p_32148_, p_32149_);
         RandomSource randomsource = p_32146_.getRandom();
         this.populateDefaultEquipmentSlots(randomsource, p_32147_);
-        this.populateDefaultEquipmentEnchantments(randomsource, p_32147_);
+        this.populateDefaultEquipmentEnchantments(p_32146_, randomsource, p_32147_);
         return p_32149_;
     }
 

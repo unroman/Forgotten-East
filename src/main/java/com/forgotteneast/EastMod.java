@@ -20,7 +20,6 @@ public class EastMod {
         ModItems.ITEM.register(bus);
         ModBlocks.BLOCK.register(bus);
         ModEntities.ENTITY.register(bus);
-        ModParticles.PARTICLE.register(bus);
         ModSounds.SOUND.register(bus);
         ModTab.CREATIVE_TAB.register(bus);
     }

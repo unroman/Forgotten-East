@@ -10,6 +10,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.RandomizableContainer;
 import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.StructureManager;
@@ -30,11 +31,12 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlac
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager;
 
 public class PalacePieces {
-    private static final ResourceLocation PALACE = new ResourceLocation(EastMod.MODID, "palace");
+    private static final ResourceLocation PALACE = ResourceLocation.fromNamespaceAndPath(EastMod.MODID, "palace");
+    private static final ResourceLocation TOWER = ResourceLocation.fromNamespaceAndPath(EastMod.MODID, "tower");
 
     public static void addPieces(StructureTemplateManager manager, BlockPos pos, StructurePieceAccessor pieceList, RandomSource random) {
         Rotation rotation = Rotation.NONE;
-        pieceList.addPiece(new PalacePieces.Piece(manager, PALACE, pos, rotation));
+        pieceList.addPiece(new PalacePieces.Piece(manager, random.nextInt(10) < 5 ? PALACE : TOWER, pos, rotation));
     }
     public static class Piece extends TemplateStructurePiece {
         public Piece(StructureTemplateManager p_228540_, ResourceLocation p_228541_, BlockPos p_228542_, Rotation p_228543_) {
@@ -59,9 +61,6 @@ public class PalacePieces {
                 if (worldIn.getBlockState(blockpos).getBlock() == ModBlocks.LACQUERED_PLANKS.get()) {
                     if (worldIn.isEmptyBlock(blockpos.above())) {
                         worldIn.setBlock(blockpos, Blocks.AIR.defaultBlockState(), 2);
-
-                    } else {
-                        worldIn.setBlock(blockpos, Blocks.SANDSTONE.defaultBlockState(), 2);
                     }
                 }
             }
@@ -70,7 +69,7 @@ public class PalacePieces {
             if (function.startsWith("Chest")) {
                 worldIn.setBlock(pos, Blocks.CHEST.defaultBlockState(), 2);
                 if (sbb.isInside(pos)) {
-                    RandomizableContainerBlockEntity.setLootTable(worldIn, random, pos, ModLootTables.PALACE_LOOT);
+                    RandomizableContainer.setBlockEntityLootTable(worldIn, random, pos, ModLootTables.PALACE_LOOT);
                 }
             }
             if (function.startsWith("Lantern")) {

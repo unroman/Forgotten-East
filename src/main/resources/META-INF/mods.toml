@@ -4,7 +4,7 @@ license="Not for sale"
 [[mods]]
 modId="forgotteneast"
 logoFile="logo.png"
-version="1.0.1"
+version="1.0.2"
 displayName="Forgotten East"
 credits = "All credits reserved"
 authors="Me"
@@ -12,6 +12,6 @@ description="Type your text here"
 [[dependencies.forgotteneast]]
   modId="minecraft"
   mandatory=true
-  versionRange="[1.20.1,1.21)"
+  versionRange="[1.21,1.22)"
   ordering="NONE"
   side="BOTH"

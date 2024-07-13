@@ -4,7 +4,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.InteractionResult;
+import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -34,22 +34,21 @@ public class PaperLanternBlock extends LanternBlock {
     public VoxelShape getShape(BlockState p_153474_, BlockGetter p_153475_, BlockPos p_153476_, CollisionContext p_153477_) {
         return p_153474_.getValue(HANGING) ? HANGING_AABB : AABB;
     }
-    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-        ItemStack itemstack = player.getItemInHand(hand);
+    protected ItemInteractionResult useItemOn(ItemStack itemstack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult p_332723_) {
         if (state.getValue(GILDED)) {
-            return InteractionResult.PASS;
+            return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
         } else {
             if (itemstack.is(Items.GOLD_INGOT)) {
-                level.playSound((Player)null, pos, SoundEvents.ARMOR_EQUIP_GOLD, SoundSource.BLOCKS, 0.3F, 0.5F);
+                level.playSound((Player)null, pos, SoundEvents.ARMOR_EQUIP_GOLD.get(), SoundSource.BLOCKS, 0.3F, 0.5F);
                 this.gild(state, level, pos);
                 if (!player.isCreative()) {
                     itemstack.shrink(1);
                 }
-                return InteractionResult.SUCCESS;
+                return ItemInteractionResult.SUCCESS;
             }
         }
 
-        return InteractionResult.PASS;
+        return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
     }
     public void gild(BlockState state, Level level, BlockPos pos) {
         state = state.cycle(GILDED);

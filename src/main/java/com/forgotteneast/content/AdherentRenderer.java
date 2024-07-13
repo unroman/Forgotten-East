@@ -12,7 +12,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
 public class AdherentRenderer extends HumanoidMobRenderer<Adherent, AdherentModel<Adherent>> {
-    private static final ResourceLocation LOST_LOCATION = new ResourceLocation(EastMod.MODID, "textures/entity/adherent.png");
+    private static final ResourceLocation LOST_LOCATION = ResourceLocation.fromNamespaceAndPath(EastMod.MODID, "textures/entity/adherent.png");
 
     public AdherentRenderer(EntityRendererProvider.Context p_174380_) {
         this(p_174380_, ModLayers.ADHERENT, ModelLayers.SKELETON_INNER_ARMOR, ModelLayers.SKELETON_OUTER_ARMOR);

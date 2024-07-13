@@ -12,7 +12,7 @@ public class ModLayers {
     public static final ModelLayerLocation ADHERENT = register("adherent");
 
     private static ModelLayerLocation register(String name, String type) {
-        return register(new ResourceLocation(EastMod.MODID, name), type);
+        return register(ResourceLocation.fromNamespaceAndPath(EastMod.MODID, name), type);
     }
 
     private static ModelLayerLocation register(ResourceLocation location, String type) {

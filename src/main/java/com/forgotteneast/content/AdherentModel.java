@@ -79,8 +79,8 @@ public class AdherentModel<T extends Adherent> extends HumanoidModel<T> {
         }
     }
 
-    public void renderToBuffer(PoseStack p_102034_, VertexConsumer p_102035_, int p_102036_, int p_102037_, float p_102038_, float p_102039_, float p_102040_, float p_102041_) {
-        super.renderToBuffer(p_102034_, p_102035_, p_102036_, p_102037_, p_102038_, p_102039_, p_102040_, p_102041_);
-        cloak.render(p_102034_, p_102035_, p_102036_, p_102037_, p_102038_, p_102039_, p_102040_, p_102041_);
+    public void renderToBuffer(PoseStack p_102034_, VertexConsumer p_102035_, int p_102036_, int p_102037_, int p_343597_) {
+        super.renderToBuffer(p_102034_, p_102035_, p_102036_, p_102037_, p_343597_);
+        cloak.render(p_102034_, p_102035_, p_102036_, p_102037_, p_343597_);
     }
 }
