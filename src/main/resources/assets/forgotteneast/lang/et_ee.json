@@ -19,9 +19,10 @@
  "block.forgotteneast.roof_tiles": "Katusekivid",
  "block.forgotteneast.roof_tiles_stairs": "Katusekivitrepp",
  "block.forgotteneast.roof_tiles_slab": "Katusekiviplaat",
- "block.forgotteneast.paper_lantern_red": "Punane paberist latern",
- "block.forgotteneast.paper_lantern_white": "Paberist latern",
- "block.forgotteneast.paper_lantern_black": "Must paberist latern",
+ "block.forgotteneast.paper_lantern_red": "Punane paberlatern",
+ "block.forgotteneast.paper_lantern_white": "Paberlatern",
+ "block.forgotteneast.paper_lantern_black": "Must paberlatern",
+ "block.forgotteneast.paper_lantern_blue": "Sinine paberlatern",
 
  "advancements.forgotteneast.lacquer.title": "Ei sisalda elavhõbedat",
  "advancements.forgotteneast.lacquer.description": "Leidke paleest lakkipurk",

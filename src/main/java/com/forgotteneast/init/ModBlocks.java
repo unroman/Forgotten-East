@@ -35,6 +35,7 @@ public class ModBlocks {
     public static RegistryObject<Block> PAPER_LANTERN_RED = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOL).forceSolidOn().strength(1.0F).sound(SoundType.WOOL).lightLevel((p_152677_) -> {return 15;}).noOcclusion().pushReaction(PushReaction.DESTROY)), "paper_lantern_red");
     public static RegistryObject<Block> PAPER_LANTERN_WHITE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_white");
     public static RegistryObject<Block> PAPER_LANTERN_BLACK = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_black");
+    public static RegistryObject<Block> PAPER_LANTERN_BLUE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_blue");
     public static RegistryObject<Block> DRAGON_BLOCK = register(() -> new DragonBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS)), "dragon_trap");
     public static RegistryObject<Block> register(Supplier<Block> builder, String name) {
         RegistryObject<Block> blockRegistryObject = BLOCK.register(name, builder);

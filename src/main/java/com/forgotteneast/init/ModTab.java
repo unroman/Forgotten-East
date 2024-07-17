@@ -13,24 +13,25 @@ public class ModTab {
             .icon(() -> ModItems.LACQUER.get().asItem().getDefaultInstance())
             .title(Component.translatable("itemGroup.eastgroup"))
             .displayItems((parameters, output) -> {
-        output.accept(ModItems.STAFF.get());
-        output.accept(ModItems.LUTE.get());
-        output.accept(ModBlocks.PAPER_LANTERN_WHITE.get());
-        output.accept(ModBlocks.PAPER_LANTERN_BLACK.get());
-        output.accept(ModBlocks.PAPER_LANTERN_RED.get());
-        output.accept(ModBlocks.DRAGON_BLOCK.get());
-        output.accept(ModBlocks.LACQUERED_PLANKS.get());
-        output.accept(ModBlocks.LACQUERED_STAIRS.get());
-        output.accept(ModBlocks.LACQUERED_SLAB.get());
-        output.accept(ModBlocks.LACQUERED_PLATE.get());
-        output.accept(ModBlocks.LACQUERED_FENCE.get());
-        output.accept(ModBlocks.LACQUERED_TRAPDOOR.get());
-        output.accept(ModBlocks.LACQUERED_DOOR.get());
-        output.accept(ModBlocks.LACQUERED_BUTTON.get());
-        output.accept(ModBlocks.ROOF_TILES.get());
-        output.accept(ModBlocks.ROOF_TILES_STAIRS.get());
-        output.accept(ModBlocks.ROOF_TILES_SLAB.get());
-        output.accept(ModItems.LACQUER.get());
-        output.accept(ModItems.ADHERENT_EGG.get());
+                output.accept(ModBlocks.PAPER_LANTERN_WHITE.get());
+                output.accept(ModBlocks.PAPER_LANTERN_BLACK.get());
+                output.accept(ModBlocks.PAPER_LANTERN_RED.get());
+                output.accept(ModBlocks.PAPER_LANTERN_BLUE.get());
+                output.accept(ModItems.STAFF.get());
+                output.accept(ModItems.LUTE.get());
+                output.accept(ModItems.LACQUER.get());
+                output.accept(ModItems.ADHERENT_EGG.get());
+                output.accept(ModBlocks.DRAGON_BLOCK.get());
+                output.accept(ModBlocks.LACQUERED_PLANKS.get());
+                output.accept(ModBlocks.LACQUERED_STAIRS.get());
+                output.accept(ModBlocks.LACQUERED_SLAB.get());
+                output.accept(ModBlocks.LACQUERED_PLATE.get());
+                output.accept(ModBlocks.LACQUERED_FENCE.get());
+                output.accept(ModBlocks.LACQUERED_TRAPDOOR.get());
+                output.accept(ModBlocks.LACQUERED_DOOR.get());
+                output.accept(ModBlocks.LACQUERED_BUTTON.get());
+                output.accept(ModBlocks.ROOF_TILES.get());
+                output.accept(ModBlocks.ROOF_TILES_STAIRS.get());
+                output.accept(ModBlocks.ROOF_TILES_SLAB.get());
     }).build());
 }
