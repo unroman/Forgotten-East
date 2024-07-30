@@ -1,6 +1,6 @@
 {
  "itemGroup.eastgroup": "Forgotten East",
- "tooltip.staff": "Shieldless Parry",
+ "tooltip.forgotteneast.staff": "Shieldless Parry",
  "item.forgotteneast.staff": "Staff",
  "item.forgotteneast.lute": "Lute",
  "item.forgotteneast.lacquer": "Jar of Lacquer",
@@ -12,6 +12,7 @@
  "block.forgotteneast.lacquered_stairs": "Lacquered Stairs",
  "block.forgotteneast.lacquered_slab": "Lacquered Slab",
  "block.forgotteneast.lacquered_fence": "Lacquered Fence",
+ "block.forgotteneast.lacquered_fence_gate": "Lacquered Fence Gate",
  "block.forgotteneast.lacquered_button": "Lacquered Button",
  "block.forgotteneast.lacquered_door": "Lacquered Door",
  "block.forgotteneast.lacquered_trapdoor": "Lacquered Trapdoor",

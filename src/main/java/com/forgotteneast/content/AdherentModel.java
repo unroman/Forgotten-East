@@ -43,7 +43,6 @@ public class AdherentModel<T extends Adherent> extends HumanoidModel<T> {
         this.head.yRot = p_103802_ * ((float)Math.PI / 180F);
         this.head.xRot = p_103803_ * ((float)Math.PI / 180F);
         this.body.yRot = 0.0F;
-        this.setupAttackAnimation(entity, p_103801_);
         if (this.riding) {
             this.rightArm.xRot = (-(float)Math.PI / 5F);
             this.rightArm.yRot = 0.0F;

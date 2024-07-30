@@ -25,10 +25,11 @@ public class ModTab {
                 output.accept(ModBlocks.LACQUERED_PLANKS.get());
                 output.accept(ModBlocks.LACQUERED_STAIRS.get());
                 output.accept(ModBlocks.LACQUERED_SLAB.get());
-                output.accept(ModBlocks.LACQUERED_PLATE.get());
                 output.accept(ModBlocks.LACQUERED_FENCE.get());
-                output.accept(ModBlocks.LACQUERED_TRAPDOOR.get());
+                output.accept(ModBlocks.LACQUERED_GATE.get());
                 output.accept(ModBlocks.LACQUERED_DOOR.get());
+                output.accept(ModBlocks.LACQUERED_TRAPDOOR.get());
+                output.accept(ModBlocks.LACQUERED_PLATE.get());
                 output.accept(ModBlocks.LACQUERED_BUTTON.get());
                 output.accept(ModBlocks.ROOF_TILES.get());
                 output.accept(ModBlocks.ROOF_TILES_STAIRS.get());

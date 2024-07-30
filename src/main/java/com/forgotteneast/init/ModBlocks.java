@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,6 +26,7 @@ public class ModBlocks {
     public static RegistryObject<Block> LACQUERED_STAIRS = register(() -> new StairBlock(LACQUERED_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_stairs");
     public static RegistryObject<Block> LACQUERED_SLAB = register(() -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_slab");
     public static RegistryObject<Block> LACQUERED_FENCE = register(() -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_fence");
+    public static RegistryObject<Block> LACQUERED_GATE = register(() -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_fence_gate");
     public static RegistryObject<Block> LACQUERED_DOOR = register(() -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_door");
     public static RegistryObject<Block> LACQUERED_TRAPDOOR = register(() -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_trapdoor");
     public static RegistryObject<Block> LACQUERED_PLATE = register(() -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get()).noCollission().strength(0.5F).pushReaction(PushReaction.DESTROY)), "lacquered_pressure_plate");

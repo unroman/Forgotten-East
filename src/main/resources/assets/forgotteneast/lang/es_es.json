@@ -1,6 +1,6 @@
 {
  "itemGroup.eastgroup": "Oriente olvidado",
- "tooltip.staff": "Bloqueo sin escudo",
+ "tooltip.forgotteneast.staff": "Bloqueo sin escudo",
  "item.forgotteneast.staff": "Bastón",
  "item.forgotteneast.lute": "Laúd",
  "item.forgotteneast.lacquer": "Tarro de laca",
@@ -12,6 +12,7 @@
  "block.forgotteneast.lacquered_stairs": "Escaleras lacadas",
  "block.forgotteneast.lacquered_slab": "Losa lacada",
  "block.forgotteneast.lacquered_fence": "Valla lacada",
+ "block.forgotteneast.lacquered_fence_gate": "Puerta de valla lacada",
  "block.forgotteneast.lacquered_button": "Botón lacado",
  "block.forgotteneast.lacquered_door": "Puerta lacada",
  "block.forgotteneast.lacquered_trapdoor": "Trampilla lacada",

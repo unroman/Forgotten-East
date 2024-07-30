@@ -73,7 +73,7 @@ public class StaffItem extends TieredItem {
 
     @OnlyIn(Dist.CLIENT)
     public void appendHoverText(ItemStack stack, Item.TooltipContext text, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(Component.translatable("tooltip.staff").withStyle(ChatFormatting.GRAY));
+        tooltip.add(Component.translatable("tooltip.forgotteneast.staff").withStyle(ChatFormatting.GRAY));
     }
 }
 

@@ -1,6 +1,6 @@
 {
  "itemGroup.eastgroup": "Затерянный восток",
- "tooltip.staff": "Парирование",
+ "tooltip.forgotteneast.staff": "Парирование",
  "item.forgotteneast.staff": "Посох",
  "item.forgotteneast.lute": "Лютня",
  "item.forgotteneast.lacquer": "Кувшин с лаком",
@@ -12,6 +12,7 @@
  "block.forgotteneast.lacquered_stairs": "Лакированные ступени",
  "block.forgotteneast.lacquered_slab": "Лакированная плита",
  "block.forgotteneast.lacquered_fence": "Лакированный забор",
+ "block.forgotteneast.lacquered_fence_gate": "Лакированная калитка",
  "block.forgotteneast.lacquered_button": "Лакированная кнопка",
  "block.forgotteneast.lacquered_door": "Лакированная дверь",
  "block.forgotteneast.lacquered_trapdoor": "Лакированный люк",

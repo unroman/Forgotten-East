@@ -1,0 +1,32 @@
+﻿{
+ "itemGroup.eastgroup": "被遗忘的远东",
+ "tooltip.forgotteneast.staff": "能够破开盾牌防御",
+ "item.forgotteneast.staff": "长木杖",
+ "item.forgotteneast.lute": "琵琶",
+ "item.forgotteneast.lacquer": "漆器罐",
+ "item.forgotteneast.adherent_spawn_egg": "修道人刷怪蛋",
+ "entity.forgotteneast.adherent": "修道人",
+
+ "block.forgotteneast.dragon_trap": "火龙陷阱",
+ "block.forgotteneast.lacquered_planks": "涂漆木板",
+ "block.forgotteneast.lacquered_stairs": "涂漆木楼梯",
+ "block.forgotteneast.lacquered_slab": "涂漆木台阶",
+ "block.forgotteneast.lacquered_fence": "涂漆木栅栏",
+ "block.forgotteneast.lacquered_fence_gate": "涂漆木栅栏门",
+ "block.forgotteneast.lacquered_button": "涂漆木按钮",
+ "block.forgotteneast.lacquered_door": "涂漆木门",
+ "block.forgotteneast.lacquered_trapdoor": "涂漆木活板门",
+ "block.forgotteneast.lacquered_pressure_plate": "涂漆木压力板",
+ "block.forgotteneast.roof_tiles": "瓦片",
+ "block.forgotteneast.roof_tiles_stairs": "瓦片楼梯",
+ "block.forgotteneast.roof_tiles_slab": "瓦片台阶",
+ "block.forgotteneast.paper_lantern_red": "红色纸灯笼",
+ "block.forgotteneast.paper_lantern_white": "纸灯笼",
+ "block.forgotteneast.paper_lantern_black": "黑色纸灯笼",
+ "block.forgotteneast.paper_lantern_blue": "蓝色纸灯笼",
+
+ "advancements.forgotteneast.lacquer.title": "不含汞",
+ "advancements.forgotteneast.lacquer.description": "在修炼塔里找到一罐漆器",
+ "advancements.forgotteneast.staff.title": "飞棒屋",
+ "advancements.forgotteneast.staff.description": "从修道人那里获得一根长木杖"
+}

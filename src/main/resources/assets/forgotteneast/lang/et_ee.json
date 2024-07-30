@@ -1,6 +1,6 @@
 {
  "itemGroup.eastgroup": "Kadunud ida",
- "tooltip.staff": "Pareerimine",
+ "tooltip.forgotteneast.staff": "Pareerimine",
  "item.forgotteneast.staff": "Võitluskepp",
  "item.forgotteneast.lute": "Lutsu",
  "item.forgotteneast.lacquer": "Lakipurk",
@@ -12,6 +12,7 @@
  "block.forgotteneast.lacquered_stairs": "Lakitud trepp",
  "block.forgotteneast.lacquered_slab": "Lakitud plaat",
  "block.forgotteneast.lacquered_fence": "Lakitud aed",
+ "block.forgotteneast.lacquered_fence_gate": "Lakitud aiavärav",
  "block.forgotteneast.lacquered_button": "Lakitud nupp",
  "block.forgotteneast.lacquered_door": "Lakitud uks",
  "block.forgotteneast.lacquered_trapdoor": "Lakitud luuk",
