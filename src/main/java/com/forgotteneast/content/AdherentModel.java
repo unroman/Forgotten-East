@@ -43,13 +43,13 @@ public class AdherentModel<T extends Adherent> extends HumanoidModel<T> {
         this.head.yRot = p_103802_ * ((float)Math.PI / 180F);
         this.head.xRot = p_103803_ * ((float)Math.PI / 180F);
         this.body.yRot = 0.0F;
+        this.rightArm.yRot = 0.0F;
+        this.rightArm.zRot = 0.0F;
+        this.leftArm.yRot = 0.0F;
+        this.leftArm.zRot = 0.0F;
         if (this.riding) {
             this.rightArm.xRot = (-(float)Math.PI / 5F);
-            this.rightArm.yRot = 0.0F;
-            this.rightArm.zRot = 0.0F;
             this.leftArm.xRot = (-(float)Math.PI / 5F);
-            this.leftArm.yRot = 0.0F;
-            this.leftArm.zRot = 0.0F;
             this.rightLeg.xRot = -1.4137167F;
             this.rightLeg.yRot = ((float)Math.PI / 10F);
             this.rightLeg.zRot = 0.07853982F;
@@ -57,13 +57,11 @@ public class AdherentModel<T extends Adherent> extends HumanoidModel<T> {
             this.leftLeg.yRot = (-(float)Math.PI / 10F);
             this.leftLeg.zRot = -0.07853982F;
         } else {
+            AnimationUtils.bobModelPart(this.rightArm, p_103801_, 1.0F);
+            AnimationUtils.bobModelPart(this.leftArm, p_103801_, -1.0F);
             this.cloak.zScale = 1.0F + p_103800_;
             this.rightArm.xRot = Mth.cos(p_103799_ * 0.6662F + (float)Math.PI) * 2.0F * p_103800_ * 0.5F;
-            this.rightArm.yRot = 0.0F;
-            this.rightArm.zRot = 0.0F;
             this.leftArm.xRot = Mth.cos(p_103799_ * 0.6662F) * 2.0F * p_103800_ * 0.5F;
-            this.leftArm.yRot = 0.0F;
-            this.leftArm.zRot = 0.0F;
             this.rightLeg.xRot = Mth.cos(p_103799_ * 0.6662F) * 1.4F * p_103800_ * 0.5F;
             this.rightLeg.yRot = 0.0F;
             this.rightLeg.zRot = 0.0F;

@@ -53,12 +53,12 @@ public class Adherent extends Monster {
         super.defineSynchedData(p_335149_);
         p_335149_.define(FLYING, false);
     }
+
     @Nullable
     public SpawnGroupData finalizeSpawn(ServerLevelAccessor p_32146_, DifficultyInstance p_32147_, MobSpawnType p_32148_, @Nullable SpawnGroupData p_32149_) {
         p_32149_ = super.finalizeSpawn(p_32146_, p_32147_, p_32148_, p_32149_);
         RandomSource randomsource = p_32146_.getRandom();
         this.populateDefaultEquipmentSlots(randomsource, p_32147_);
-        this.populateDefaultEquipmentEnchantments(p_32146_, randomsource, p_32147_);
         return p_32149_;
     }
 

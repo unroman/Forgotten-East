@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "forgotteneast:item/paper_lantern_purple"
+  }
+}

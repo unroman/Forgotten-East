@@ -23,8 +23,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 public class PaperLanternBlock extends LanternBlock {
 
     public static final BooleanProperty GILDED = BooleanProperty.create("gilded");
-    protected static final VoxelShape AABB = Shapes.or(Block.box(3, 0, 3, 13, 9, 13));
-    protected static final VoxelShape HANGING_AABB = Shapes.or(Block.box(3, 1, 3, 13, 10, 13), Block.box(6, 0, 6, 10, 1, 10));
+    protected static final VoxelShape AABB = Shapes.or(Block.box(3, 0, 3, 13, 10, 13), Block.box(6, 10, 6, 10, 11, 10));
+    protected static final VoxelShape HANGING_AABB = Shapes.or(Block.box(3, 5, 3, 13, 15, 13), Block.box(6, 4, 6, 10, 16, 10));
 
     public PaperLanternBlock(Properties p_153465_) {
         super(p_153465_);

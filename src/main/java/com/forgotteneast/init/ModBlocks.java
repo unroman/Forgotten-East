@@ -31,14 +31,25 @@ public class ModBlocks {
     public static RegistryObject<Block> LACQUERED_TRAPDOOR = register(() -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get())), "lacquered_trapdoor");
     public static RegistryObject<Block> LACQUERED_PLATE = register(() -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get()).noCollission().strength(0.5F).pushReaction(PushReaction.DESTROY)), "lacquered_pressure_plate");
     public static RegistryObject<Block> LACQUERED_BUTTON = register(() -> new ButtonBlock(BlockSetType.OAK, 30, BlockBehaviour.Properties.ofFullCopy(LACQUERED_PLANKS.get()).noCollission().strength(0.5F).pushReaction(PushReaction.DESTROY)), "lacquered_button");
-
+    public static RegistryObject<Block> DRAGON_BLOCK = register(() -> new DragonBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS)), "dragon_trap");
     public static RegistryObject<Block> ROOF_TILES_STAIRS = register(() -> new StairBlock(ROOF_TILES.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)), "roof_tiles_stairs");
     public static RegistryObject<Block> ROOF_TILES_SLAB = register(() -> new RoofSlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)), "roof_tiles_slab");
     public static RegistryObject<Block> PAPER_LANTERN_RED = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOL).forceSolidOn().strength(1.0F).sound(SoundType.WOOL).lightLevel((p_152677_) -> {return 15;}).noOcclusion().pushReaction(PushReaction.DESTROY)), "paper_lantern_red");
     public static RegistryObject<Block> PAPER_LANTERN_WHITE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_white");
     public static RegistryObject<Block> PAPER_LANTERN_BLACK = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_black");
     public static RegistryObject<Block> PAPER_LANTERN_BLUE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_blue");
-    public static RegistryObject<Block> DRAGON_BLOCK = register(() -> new DragonBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICKS)), "dragon_trap");
+    public static RegistryObject<Block> PAPER_LANTERN_CYAN = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_cyan");
+    public static RegistryObject<Block> PAPER_LANTERN_GREEN = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_green");
+    public static RegistryObject<Block> PAPER_LANTERN_PINK = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_pink");
+    public static RegistryObject<Block> PAPER_LANTERN_LIGHT_BLUE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_light_blue");
+    public static RegistryObject<Block> PAPER_LANTERN_LIGHT_GRAY = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_light_gray");
+    public static RegistryObject<Block> PAPER_LANTERN_GRAY = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_gray");
+    public static RegistryObject<Block> PAPER_LANTERN_BROWN = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_brown");
+    public static RegistryObject<Block> PAPER_LANTERN_ORANGE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_orange");
+    public static RegistryObject<Block> PAPER_LANTERN_MAGENTA = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_magenta");
+    public static RegistryObject<Block> PAPER_LANTERN_PURPLE = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_purple");
+    public static RegistryObject<Block> PAPER_LANTERN_LIME = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_lime");
+    public static RegistryObject<Block> PAPER_LANTERN_YELLOW = register(() -> new PaperLanternBlock(BlockBehaviour.Properties.ofFullCopy(PAPER_LANTERN_RED.get())), "paper_lantern_yellow");
     public static RegistryObject<Block> register(Supplier<Block> builder, String name) {
         RegistryObject<Block> blockRegistryObject = BLOCK.register(name, builder);
         ModItems.ITEM.register(name, () -> new BlockItem(blockRegistryObject.get(), new Item.Properties()));

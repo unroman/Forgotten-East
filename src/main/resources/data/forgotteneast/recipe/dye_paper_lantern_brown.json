@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_dye"
+    },
+    [
+      {
+        "item": "forgotteneast:paper_lantern_blue"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_black"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_cyan"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_gray"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_green"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_light_blue"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_light_gray"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_lime"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_magenta"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_orange"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_pink"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_purple"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_red"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_yellow"
+      },
+      {
+        "item": "forgotteneast:paper_lantern_white"
+      }
+    ]
+  ],
+  "result": {
+    "id": "forgotteneast:paper_lantern_brown",
+    "count": 1
+  }
+}

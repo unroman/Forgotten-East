@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,gilded=false": {
+      "model": "forgotteneast:block/paper_lantern_pink"
+    },
+    "hanging=true,gilded=false": {
+      "model": "forgotteneast:block/paper_lantern_pink_hanging"
+    },
+    "hanging=false,gilded=true": {
+      "model": "forgotteneast:block/paper_lantern_pink_gilded"
+    },
+    "hanging=true,gilded=true": {
+      "model": "forgotteneast:block/paper_lantern_pink_gilded_hanging"
+    }
+  }
+}

@@ -1,7 +1,6 @@
 {
-  "parent": "forgotteneast:block/paper_lantern_hanging",
+  "parent": "forgotteneast:block/paper_lantern_gilded_hanging",
    "textures": {
-        "lantern": "forgotteneast:block/paper_lantern_blue_gilded",
-        "particle": "forgotteneast:block/paper_lantern_blue_gilded"
+        "lantern": "forgotteneast:block/paper_lantern_blue"
     }
 }

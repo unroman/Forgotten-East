@@ -1,0 +1,6 @@
+{
+  "parent": "forgotteneast:block/paper_lantern",
+   "textures": {
+        "lantern": "forgotteneast:block/paper_lantern_pink"
+    }
+}
