@@ -1,13 +1,13 @@
 {
- "itemGroup.eastgroup": "Втрачений схід",
- "tooltip.forgotteneast.staff": "Парирування",
+ "itemGroup.eastgroup": "Forgotten East",
+ "tooltip.forgotteneast.staff": "Парирування без щита",
  "item.forgotteneast.staff": "Посох",
  "item.forgotteneast.lute": "Лютня",
- "item.forgotteneast.lacquer": "Глек з лаком",
+ "item.forgotteneast.lacquer": "Глек лаку",
  "item.forgotteneast.adherent_spawn_egg": "Яйце виклику прибічника",
  "entity.forgotteneast.adherent": "Прибічник",
 
- "block.forgotteneast.dragon_trap": "Вогняна драконя пастка",
+ "block.forgotteneast.dragon_trap": "Вогняна драконова пастка",
  "block.forgotteneast.lacquered_planks": "Лаковані дошки",
  "block.forgotteneast.lacquered_stairs": "Лаковані сходи",
  "block.forgotteneast.lacquered_slab": "Лакована плита",
@@ -18,8 +18,8 @@
  "block.forgotteneast.lacquered_trapdoor": "Лакований люк",
  "block.forgotteneast.lacquered_pressure_plate": "Лакована натискна плита",
  "block.forgotteneast.roof_tiles": "Черепиця",
- "block.forgotteneast.roof_tiles_stairs": "Черепічні сходи",
- "block.forgotteneast.roof_tiles_slab": "Черепічна плита",
+ "block.forgotteneast.roof_tiles_stairs": "Сходи з черепиці",
+ "block.forgotteneast.roof_tiles_slab": "Плита з черепиці",
  "block.forgotteneast.paper_lantern_red": "Червоний паперовий ліхтар",
  "block.forgotteneast.paper_lantern_white": "Паперовий ліхтар",
  "block.forgotteneast.paper_lantern_black": "Чорний паперовий ліхтар",
@@ -37,8 +37,8 @@
  "block.forgotteneast.paper_lantern_cyan": "Бірюзовий паперовий ліхтар",
  "block.forgotteneast.paper_lantern_pink": "Рожевий паперовий ліхтар",
 
- "advancements.forgotteneast.lacquer.title": "Не містить ртуть",
- "advancements.forgotteneast.lacquer.description": "Знайдіть глек з лаком у палаці",
- "advancements.forgotteneast.staff.title": "Дім літаючих палиць",
- "advancements.forgotteneast.staff.description": "Зберіть посох з прибічника"
+ "advancements.forgotteneast.lacquer.title": "Не містить ртуті",
+ "advancements.forgotteneast.lacquer.description": "Знайдіть глек лаку в палаці",
+ "advancements.forgotteneast.staff.title": "Дім летючих палиць",
+ "advancements.forgotteneast.staff.description": "Отримайте посох прибічника"
 }
